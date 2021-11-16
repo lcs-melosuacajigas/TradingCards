@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		AE00AC87273AD56600BDC06A /* FinalAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC86273AD56600BDC06A /* FinalAssignmentApp.swift */; };
-		AE00AC89273AD56600BDC06A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC88273AD56600BDC06A /* ContentView.swift */; };
+		AE00AC89273AD56600BDC06A /* BenzemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC88273AD56600BDC06A /* BenzemaView.swift */; };
 		AE00AC8B273AD56700BDC06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE00AC8A273AD56700BDC06A /* Assets.xcassets */; };
 		AE00AC8E273AD56700BDC06A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE00AC8D273AD56700BDC06A /* Preview Assets.xcassets */; };
+		AE00AC95273AD6F800BDC06A /* SergioRamosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC94273AD6F800BDC06A /* SergioRamosView.swift */; };
+		AE00AC97273AD70900BDC06A /* MbappeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC96273AD70900BDC06A /* MbappeView.swift */; };
+		AE00AC99273AD71400BDC06A /* SalahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC98273AD71400BDC06A /* SalahView.swift */; };
+		AE00AC9F273AD9B600BDC06A /* deBruyneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC9E273AD9B600BDC06A /* deBruyneView.swift */; };
+		AE00ACA3273ADED600BDC06A /* FinalAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00ACA2273ADED600BDC06A /* FinalAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE00AC83273AD56600BDC06A /* FinalAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE00AC86273AD56600BDC06A /* FinalAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAssignmentApp.swift; sourceTree = "<group>"; };
-		AE00AC88273AD56600BDC06A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE00AC88273AD56600BDC06A /* BenzemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzemaView.swift; sourceTree = "<group>"; };
 		AE00AC8A273AD56700BDC06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE00AC8D273AD56700BDC06A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE00AC94273AD6F800BDC06A /* SergioRamosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SergioRamosView.swift; sourceTree = "<group>"; };
+		AE00AC96273AD70900BDC06A /* MbappeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbappeView.swift; sourceTree = "<group>"; };
+		AE00AC98273AD71400BDC06A /* SalahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahView.swift; sourceTree = "<group>"; };
+		AE00AC9E273AD9B600BDC06A /* deBruyneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deBruyneView.swift; sourceTree = "<group>"; };
+		AE00ACA2273ADED600BDC06A /* FinalAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				AE00AC86273AD56600BDC06A /* FinalAssignmentApp.swift */,
-				AE00AC88273AD56600BDC06A /* ContentView.swift */,
+				AE00AC88273AD56600BDC06A /* BenzemaView.swift */,
+				AE00AC94273AD6F800BDC06A /* SergioRamosView.swift */,
+				AE00AC96273AD70900BDC06A /* MbappeView.swift */,
+				AE00AC98273AD71400BDC06A /* SalahView.swift */,
+				AE00AC9E273AD9B600BDC06A /* deBruyneView.swift */,
+				AE00ACA2273ADED600BDC06A /* FinalAssignmentView.swift */,
 				AE00AC8A273AD56700BDC06A /* Assets.xcassets */,
 				AE00AC8C273AD56700BDC06A /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE00AC89273AD56600BDC06A /* ContentView.swift in Sources */,
+				AE00AC99273AD71400BDC06A /* SalahView.swift in Sources */,
+				AE00ACA3273ADED600BDC06A /* FinalAssignmentView.swift in Sources */,
+				AE00AC89273AD56600BDC06A /* BenzemaView.swift in Sources */,
+				AE00AC95273AD6F800BDC06A /* SergioRamosView.swift in Sources */,
 				AE00AC87273AD56600BDC06A /* FinalAssignmentApp.swift in Sources */,
+				AE00AC9F273AD9B600BDC06A /* deBruyneView.swift in Sources */,
+				AE00AC97273AD70900BDC06A /* MbappeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
